@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+</head>
+<style>
+    body{
+        background:url(background-belakang.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    label {
+        font-size: 13px;
+        color: aliceblue;
+    }
+    .titik{
+        color: aliceblue;
+    }
+</style>
+<body style="font-family: sans-serif; display: flex; justify-content: center; align-items: center;">  
+    <table style="background-color: rgba(0, 0, 0, 0.5); background-repeat: no-repeat; background-position: center; background-size: cover; border-radius: 20px;" border="0" cellpadding="10" cellspacing="0">
+        <tr>
+            <td colspan="3" align="center"><h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; font-size: medium ; color: aliceblue;">FORMULIR REGRISTASI</h1>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="NAMA">NAMA</label></td>
+            <td><div class="titik">:</div></td>
+            <td><input type="text" id="NAMA" placeholder="Masukkan namamu"></td>
+        </tr>
+
+        <tr>
+            <td><label for="tggl-lahir">TANGGAL LAHIR</label></td>
+            <td><div class="titik">:</div></td>
+            <td><input type="date" id="tggl-lahir"></td>
+        </tr>
+
+        <tr>
+            <td><label>KELAMIN</td></label>
+            <td><div class="titik">:</div></td>
+            <td>
+                <input type="radio" id="laki-laki">
+                <label for="laki-laki">laki-laki</label>
+                <input type="radio" id="perempuan">
+                <label for="perempuan">perempuan</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="top"><label for="alamat">ALAMAT</label></td>
+            <td><div class="titik">:</div></td>
+            <td><textarea name="alamat" id="" cols="30" rows="10" placeholder="Jl. surga"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">EMAIL</label></td>
+            <td><div class="titik">:</div></td>
+            <td><input type="email" id="EMAIL" placeholder="Masukkan email"></td>
+        </tr>
+
+        <tr>
+            <td><label for="nomor">NOMOR HP</label></td>
+            <td><div class="titik">:</div></td>
+            <td><input type="number" id="nomor" placeholder="Masukkan nomormu"></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">PASSWORD</label></td>
+            <td><div class="titik">:</div></td>
+            <td><input type="password" id="password" placeholder="Masukkan password"></td>
+        </tr>
+
+        <tr>
+            <td><label for="confirm-password">KONFIRMASI PASSWORD</label></td>
+            <td><div class="titik">:</div></td>
+            <td><input type="password" id="confirm-password" placeholder="Masukkan password"></td>
+        </tr>
+
+        <tr>
+            <td><label for="kotaasal">KOTA ASAL</label></td>
+            <td><div class="titik">:</div></td>
+            <td>
+                    <select name="kotaasal" id="kota">
+                        <option value="--Pilih Kota">&nbsp;--Pilih Kotamu--&nabla;;</option>
+                        <option value="Blitar">Blitar</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="surabaya">Surabaya</option>
+                    </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" align="center">
+                <input type="checkbox" id="rules">
+                <label for="rules">Saya menyetujui ketentuan yang ada</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <input type="button" value="simpan">
+                <input type="button" value="batal">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center"><p>sudah punya akun? <a href="index.html">login</a></p></td>
+        </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+</body>
+</html>
